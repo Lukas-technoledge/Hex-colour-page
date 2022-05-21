@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+}
+.hex-colour {
+    text-transform: capitalize;
+}
+.hex-code {
+    font-size: 3rem;
+}
+.hex-btn {
+    color: darkmagenta;
+    border: 2px plum solid;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+}
+.hex-btn:hover {
+    background-color: white;
+}
